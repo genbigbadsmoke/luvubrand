@@ -11,12 +11,12 @@ export const navOptions = [
     },
     {
       id: "listingBDSMGear",
-      label: "BDSM Gear",
+      label: "Gear",
       path: "/product/listing/bdsmgear",
     },
     {
       id: "listingSextoys",
-      label: "Sex Toys",
+      label: "Toys",
       path: "/product/listing/sextoys",
     },
     {
