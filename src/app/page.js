@@ -122,7 +122,7 @@ export default function Home() {
                   className="object-cover w-full aspect-square"
                 />
                 <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
-                  <h3 className="text-xl font-medium text-white">Sex Toys</h3>
+                  <h3 className="text-xl font-medium text-white">Toys</h3>
                   <button
                     onClick={() => router.push("/product/listing/sextoys")}
                     className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white"
@@ -139,7 +139,7 @@ export default function Home() {
                   className="object-cover w-full aspect-square"
                 />
                 <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
-                  <h3 className="text-xl font-medium text-white">BDSM Gear</h3>
+                  <h3 className="text-xl font-medium text-white">Gear</h3>
                   <button
                     onClick={() => router.push("/product/listing/bdsmgear")}
                     className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white"
