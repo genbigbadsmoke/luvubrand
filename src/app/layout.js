@@ -1,4 +1,5 @@
 import Navbar from '../components/Navbar'
+import Footer from '@/components/Footer'
 import GlobalState, { GlobalContex } from '../context/index'
 import { Inter } from 'next/font/google'
 import './globals.css'
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
         <GlobalState>
           <Navbar/>
           <main className='flex min-h-screen flex-col mt-[80px]'>{children}</main>
+          <Footer/>
         </GlobalState>
       </body>
     </html>
