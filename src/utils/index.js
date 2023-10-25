@@ -74,10 +74,6 @@ export const navOptions = [
       componentType: "select",
       options: [
         {
-          id: "admin",
-          label: "Admin",
-        },
-        {
           id: "customer",
           label: "customer",
         },
